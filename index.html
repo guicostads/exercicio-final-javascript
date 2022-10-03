@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Analisador de números</title>
+</head>
+
+<body>
+    <header>
+        <h1> Analisador de números </h1>
+    </header>
+    <section>
+        <div>
+            <label for="numeros"> Número (entre 1 e 100): </label>
+            <input type="number" name="numero" id="numero">
+            <input type="button" name="btn" id="btn" value="Adicionar" onclick="addNum();">
+        </div>
+        <div class="flex">
+            <select id="lista" size="8"> </select>
+            <div>
+                <input type="button" id="fim" name="fim" value="Finalizar" onclick="result()">
+                <input type="button" id="remover" name="remover" value="Remover">
+                <input type="button" id="reset" name="reset" value="Reset">
+            </div>
+        </div>
+        <div id="res"> </div>
+    </section>
+    <footer>
+        <div class="link-effect">Por <a href="https://github.com/guicostads" target="_blank"
+                rel="noreferrer noopener">@guicostads</a></div>
+    </footer>
+    <script src="script.js"> </script>
+</body>
+
+</html>
