@@ -6,3 +6,5 @@
 
 
 Exercício onde consegui por a prova os conhecimentos básicos de JS adquiridos ao longo do curso. O fato de ter chegado a uma solução diferente da do professor só reforça que estou conseguindo desenvolver a lógica progressivamente.
+
+link: https://superb-sprinkles-ce9c0e.netlify.app/
